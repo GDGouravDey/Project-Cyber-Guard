@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project CyberGuard</title>
+    <link href="images/favicon.png" rel="shortcut icon"/>
+
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="customize.css" type="text/css" />
+    <script src="cards.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div class="game-board">
+      <div class="title-h1">
+        <h1>
+          <strong>Hacker's attack Cards</strong> <br />
+          Choose the Best Card to stop the Hacker's Attack
+        </h1>
+      </div>
+      <div class="hacker-area">
+        <div class="stats hacker-stats">
+          <div class="life-bar">
+            <div class="life-left hacker-color"></div>
+          </div>
+          <div class="life-total"></div>
+          <div class="thumbnail">
+            <img src="images/1.png" alt="hacker" />
+          </div>
+          <div class="name">Hacker</div>
+        </div>
+
+        <div class="card hacker-card hacker-color">
+          <div class="text"></div>
+          <div class="power"></div>
+        </div>
+      </div>
+
+      <div class="player-area">
+        <div class="stats player-stats">
+          <div class="life-bar">
+            <div class="life-left player-color"></div>
+          </div>
+          <div class="life-total"></div>
+          <div class="thumbnail">
+            <img src="images/2.png" alt="hacker" />
+          </div>
+          <div class="name">You</div>
+        </div>
+
+        <div class="card player-card player-color">
+          <div class="text"></div>
+          <div class="power"></div>
+        </div>
+
+        <div class="card player-card player-color">
+          <div class="text"></div>
+          <div class="power"></div>
+        </div>
+
+        <div class="card player-card player-color">
+          <div class="text"></div>
+          <div class="power"></div>
+        </div>
+
+        <button class="start-game" onClick="startGame()">Play the Game!</button>
+        <button class="next-turn" onClick="playTurn()">Next!</button>
+      </div>
+    </div>
+
+    <div class="winner-section">
+      <div>
+        <span class="winner-message">You got hacked!</span>
+        <button class="restart" onClick="location.reload()">Play Again</button>
+      </div>
+    </div>
+
+    <script src="scripts/script.js" type="text/javascript"></script>
+  </body>
+</html>
