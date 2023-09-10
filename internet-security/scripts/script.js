@@ -1,6 +1,5 @@
 var arr = ["sound.mp3", "sound2.mp3", "sound3.mp3","sound4.mp3","sound5.mp3"];
-//var k = Math.floor(Math.random() * (4+1));
-var k = 1;
+var k = Math.floor(Math.random() * (4+1));
 var audioObj = new Audio(arr[k]);
 var playerLife = 7;
 var hackerLife = 7;
