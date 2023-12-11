@@ -71,7 +71,7 @@ var scenarios = [
         power : 2,
       },
       {
-        description : "I use authentication apps like Google Authenticator or Authy rather than relying solely on SMS-based 2FA.",
+        description : "I use authentication apps rather than relying solely on SMS-based 2FA.",
         power : 4,
       },
       {
